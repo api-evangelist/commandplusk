@@ -64,5 +64,129 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-CMD+K is a company surfaced via the API Evangelist harvest backlog (source: g2-catalog) and added to the network as a stub for full-pipeline profiling.
-- https://commandplusk.com/
+CMD+K provides an in‑product AI assistant platform that lets software products embed a conversational agent capable of answering user queries from documentation with citations and performing actions on behalf of the user via hosted MCP (Model‑Control‑Plane) servers. It supports OpenAPI and GraphQL specifications, offers OAuth 2.1 authentication, integrates with tools like GitHub, Slack, and Stripe, and includes features such as whitelabeling, usage attribution, and metered billing. Pricing starts at $29 per month with prepaid credits, and a free trial is available.
+
+**Areas:** Artificial Intelligence · Assistant · Platform · Software-as-a-Service · Developers
+
+## CMD+K on APIs.io
+
+Everything profiled for CMD+K is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/commandplusk/](https://apis.io/providers/commandplusk/)** — or go straight to one of the APIs or properties below.
+
+### APIs (4)
+
+- [CMD+K API](https://apis.io/apis/commandplusk/cmd-k-api/) — API for CMD+K platform
+- [CMD+K Cmdk API](https://apis.io/apis/commandplusk/commandplusk-cmdk-api/) — The Cmdk API from CMD+K — 1 operation(s) for cmdk.
+- [CMD+K Models API](https://apis.io/apis/commandplusk/commandplusk-models-api/) — The Models API from CMD+K — 1 operation(s) for models.
+- [CMD+K Public API](https://apis.io/apis/commandplusk/commandplusk-public-api/) — The Public API from CMD+K — 3 operation(s) for public.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [PostApiPublicPartnerWidgetWidgetidRequest](https://apis.io/schemas/commandplusk/commandplusk-post-api-public-partner-widget-widgetid-request/)
+- [PostApiPublicV1ChatCompletionsRequest](https://apis.io/schemas/commandplusk/commandplusk-post-api-public-v1-chat-completions-request/)
+- [PostApiPublicWidgetVerifyRequest](https://apis.io/schemas/commandplusk/commandplusk-post-api-public-widget-verify-request/)
+- [PostApiPublicWidgetVerifyResponse](https://apis.io/schemas/commandplusk/commandplusk-post-api-public-widget-verify-response/)
+- [PostCmdkVerifyUserRequest](https://apis.io/schemas/commandplusk/commandplusk-post-cmdk-verify-user-request/)
+- [PostCmdkVerifyUserResponse](https://apis.io/schemas/commandplusk/commandplusk-post-cmdk-verify-user-response/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Commandplusk Context](https://apis.io/jsonld/commandplusk/commandplusk-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [CMD+K API Rules](https://apis.io/rules/commandplusk/commandplusk-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Commandplusk Authentication](https://apis.io/security/commandplusk/commandplusk-authentication/)
+- [Commandplusk Domain Security](https://apis.io/security/commandplusk/commandplusk-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Commandplusk Plans Pricing](https://apis.io/plans/commandplusk/commandplusk-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://commandplusk.com/)
+- [Documentation](https://commandplusk.com/docs)
+- [Getting started](https://commandplusk.com/docs/get-started/quickstart)
+- [API reference](https://commandplusk.com/docs/reference/security)
+- [Pricing](https://commandplusk.com/pricing)
+- [Sign up](https://commandplusk.com/auth?mode=signup)
+- [Support](https://commandplusk.com/status)
+- [Changelog](https://commandplusk.com/changelog)
+- [Blog](https://commandplusk.com/blog)
+- [Trust centre](https://commandplusk.com/trust)
+- [Terms of service](https://commandplusk.com/terms)
+- [Privacy policy](https://commandplusk.com/privacy)
+
+## API Evangelist rating
+
+**Kin Score 47.9** — developing · rubric 0.25.0 · scored 2026-10-23
+
+| Facet | Score |
+|---|---|
+| Discoverability | 71.7 |
+| Contract quality | 24.9 |
+| Contract governance | 33.3 |
+| Operational transparency | 15.8 |
+| Developer ergonomics | 52.4 |
+| Access clarity | 84.2 |
+
+**Agent readiness 41.8** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | partial |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | distinct |
+
+**Regulatory alignment 27.3** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/commandplusk/](https://apis.io/providers/commandplusk/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for CMD+K: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/commandplusk/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
